@@ -5,14 +5,14 @@
 .prokliky{
   font-size: 15x
 }
-.nadpis1{
+.nadpis1, h1{
   text-align: center;
-  font-family: "ubuntu";
+  font-family: ;
   font-size: 60px
   
 }
 .popisjidla{
-  font-family: "ubuntu";
+  font-family: ;
   font-size: 18px;
   display: inline;
 }
@@ -26,4 +26,17 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.uvod{
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: ;
+}
+.small-padding{
+  padding: 5px;
+}
+
+.img-res{
+  aspect-ratio: 16 / 9;
 }
