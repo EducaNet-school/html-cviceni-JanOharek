@@ -1,0 +1,24 @@
+.cellpadding1{
+  padding: 15px;
+}
+td, tr, table{
+  border: 2px solid blue;
+}
+caption{
+  font-size: xx-large;
+  font-weight: bolder;
+  color: crimson;
+  padding: 15px;
+}
+td{
+  width: 80px;
+}
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center-text {
+  text-align: center;
+}
