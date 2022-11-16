@@ -4,33 +4,60 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabulky</title>
+  <title>Rozvrh</title>
 </head>
 <link rel="stylesheet" href="CSS/styles.css">
 <body>
-    <h1>Prvni tabulka</h1>
-    <table cellspacing="15" cellpadding="15">
-    <thead> 
-      <tr>
-          <td>Jmeno</td>
-          <td>Prijmeni</td>
-          <td>Vek</td>
-      </tr>
-    </thead> 
-      <tr>
-        <td colspan="2" class="center-text">Janek Lopata</td>
-        <td>17</td>
-      </tr>
-      <tr>
-        <td>Linda</td>
-        <td>Lopatova</td>
-        <td>24</td>
-      </tr>
-      <tfoot>
-        <tr>
-          <td colspan=3 class="center-text">Zapati</td>
-        </tr>
-      </tfoot>
-    </table>
+  <h1>Školní rozvrh</h1>
+  <table cellspacing="7", cellpadding="2">
+    <tr>
+      <th></th>
+      <th>Pondělí</th>
+      <th>úterý</th>
+      <th>Středa</th>
+      <th>Čtvrtek</th>
+      <th>Pátek</th>
+      <th>Sobota</th>
+      <th>Neděle</th>
+    </tr>
+    <tr>
+      <th>1. hodina</th>
+      <td>M</td>
+      <td></td>
+      <td></td>
+      <td>NJ</td>
+      <td>INF</td>
+      <td rowspan="4" class="sloupce"></td>
+      <td rowspan="4" class="sloupce"></td>
+    </tr>
+    <tr>
+      <th>2. hodina</th>
+      <td>AJ</td>
+      <td>TV</td>
+      <td></td>
+      <td>VV</td>
+      <td>HV</td>
+    </tr>
+    <tr>
+      <th>3. hodina</th>
+      <td></td>
+      <td>PV</td>
+      <td></td>
+      <td>CH</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <th>4. hodina</th>
+      <td></td>
+      <td>D</td>
+      <td></td>
+      <td>Z</td>
+      <td>PV</td>
+    </tr>
+    <tr>
+      <th colspan="9" style=" background-color: greenyellow;">Lichý týden</th>
+    </tr>
+  </table>
+</table>
 </body>
 </html>
