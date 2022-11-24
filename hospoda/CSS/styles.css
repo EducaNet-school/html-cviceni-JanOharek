@@ -40,3 +40,15 @@
 .img-res{
   aspect-ratio: 16 / 9;
 }
+
+.lighter{
+  font-weight: lighter;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.underline{
+  text-decoration: underline;
+}

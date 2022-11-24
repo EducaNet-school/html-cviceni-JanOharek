@@ -1,0 +1,73 @@
+table{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-collapse: collapse;
+}
+td {
+  background-color: rgb(255, 255, 255); 
+  font-weight: 100;
+  font-size: 100%;
+}
+
+td, th {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+th {
+  background-color: rgb(255, 255, 255);
+  font-size: 100%;
+}
+
+.tabulka_typ{
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.tabulka_den{
+  padding: 45;
+  height: 60px;
+  font-size: 190%;
+  background-color: rgb(221, 221, 221);
+}
+
+.sloupec1{
+  padding-inline: 45px;
+  text-decoration: underline;
+}
+
+.sloupec2{
+  padding-left: 10px;
+  padding-right: 300px;
+  text-decoration: underline;
+}
+
+.sloupec3{
+  padding-inline: 5px;
+  text-decoration: underline;
+}
+
+.tabulka_center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jidlo_zarovnani{
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+#popisek{
+  text-align: center;
+  font-style: italic;
+}
+
+.spodni_popisek{
+  padding-bottom: 15%;
+}
+
+p:first-letter{
+  font-weight: bold;
+}
+
+H3 A{
+  font-style:oblique;
+}
