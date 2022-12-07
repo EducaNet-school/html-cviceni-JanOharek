@@ -1,4 +1,4 @@
-.ohraniceni {   
+.border1 {   
   border: 2px;
   border-style:solid;
   width: 420px;
@@ -31,7 +31,7 @@
   height: 15px;
   border-radius:50%;
 }
-.icon-2 {
+.icon1 {
   width: 75px;
   height: 1px;
   border-radius:20%;
@@ -64,8 +64,6 @@
 .tlacitko-cervena{
   color: rgb(255, 10, 10);
 }
-
-
 .tlacitko-cervena:hover {
   background-color: #ff7e9a
 }
