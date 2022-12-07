@@ -1,0 +1,93 @@
+.ohraniceni {   
+  border: 2px;
+  border-style:solid;
+  width: 420px;
+  margin: 50px auto;
+  padding: 5px auto;
+  border-radius: 25px;
+  height: 300px;
+  background-color: #ffffff;
+}
+.border-modra{
+  border-color: rgb(19, 23, 240);
+}
+.border-cervena{
+  border-color: rgb(255, 0, 0);
+}
+.circle{
+  padding: 1.5em 2em;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 300px;
+  }
+.circle-modra{
+  background-color: #3d49f8;
+}
+.circle-cervena{
+  background-color: #ff0000;
+}
+.icon {
+  width: 1px;
+  height: 15px;
+  border-radius:50%;
+}
+.icon-2 {
+  width: 75px;
+  height: 1px;
+  border-radius:20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tlacitko {
+  background: #d2d5ff;
+  padding: 20px;
+  text-align: center;
+  margin: 35px auto;
+  max-width: 150px;
+  text-align:center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 3px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor:pointer;
+
+}
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.tlacitko-modra{
+  color: rgb(10, 27, 255);
+}
+.tlacitko-cervena{
+  color: rgb(255, 10, 10);
+}
+
+
+.tlacitko-cervena:hover {
+  background-color: #ff7e9a
+}
+.tlacitko-cervena:active {    
+  background-color: #ff3578;
+  box-shadow: 2px rgb(160, 160, 160);
+  transform: translateY(4px);
+
+}
+.tlacitko-modra:hover {
+  background-color: #6589ff
+}
+.tlacitko-modra:active {    
+  background-color: #7180ff;
+  box-shadow: 2px rgb(156, 156, 156);
+  transform: translateY(4px);
+}
+h1, p { 
+  text-align: center;
+  margin: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {  
+  background-color: rgb(255, 216, 190);
+}
