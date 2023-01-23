@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denni menu</title>
+<html>
+
+<body>
+    <script>
+        alert("Úloha 1: Ahoj!");
+    </script>
+    <script>
+        var jmeno = prompt("Úloha 2: Zadej své jméno:");
+        alert("Ahoj, " + jmeno + "!");
+    </script>
+    <script>
+        var cislo = prompt("Úloha 3: Zadej číslo:");
+        var mocnina = prompt("Úloha 3: Zadej mocninu:");
+        var vysledek = Math.pow(cislo, mocnina);
+        alert("Úloha 3: Výsledek: " + vysledek);
+    </script>
+    <script>
+        var retezec = prompt("Úloha 4: Zadej řetězec:");
+        for(var i = 1; i <= retezec.length; i++) {
+            alert("Úloha 4: " + retezec.substring(0, i));
+        }
+    </script>
+    <script>
+        var cislo1 = prompt("Úloha 5: Zadej první číslo:");
+        var cislo2 = prompt("Úloha 5: Zadej druhé číslo:");
+        var cislo3 = prompt("Úloha 5: Zadej třetí číslo:");
+        var min = Math.min(cislo1, cislo2, cislo3);
+        alert("Úloha 5: Nejmenší číslo ze zadaných je: " + min);
+    </script>
+</body>
+</html>
