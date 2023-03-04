@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+	<h1>Nakupni list</h1>
+	<form>
+		<label for="itemInput">Vloz polozku:</label>
+		<input type="text" id="itemInput" name="itemInput">
+		<button type="button" onclick="addItem()">Pridat polozku</button>
+	</form>
+	<ul id="itemList"></ul>
+  
+  <script>
+    function addItem() {
+  var input = document.getElementById("itemInput");
+  var item = input.value;
+  var ul = document.getElementById("itemList");
+  var li = document.createElement("li");
+  li.appendChild(document.createTextNode(item));
+  ul.appendChild(li);
+  input.value = null;
+}
+  </script>
+  
+</body>
+</html>

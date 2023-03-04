@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <script>
+      let denTyden = new Array("Nedele","Pondeli","Utery","Streda",
+      "Ctvrtek","Patek","Sobota");
+      let datum = new Date();
+      let cisloDne = datum.getDay();
+      document.writeln("Dneska je " + denTyden[cisloDne]);
+
+      let pole1 = ["hodnota0","hodnota1","hodnota2","hodnota3"];
+      for(let i =0; i < pole1.lenght; i++)
+      {
+        document.writeln(pole1[i] + " ")
+      }
+
+      let pol2 = new Array();
+      let pol3 = []
+      
+      for(let i = 0; i < 10; i++)
+      {
+        pol3[i] = i + 1;
+      }
+      for(let prvek of pol3)
+      {
+        document.writeln(prvek);
+      }
+
+      
+    </script>
+</body>
+</html>

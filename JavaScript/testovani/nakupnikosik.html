@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  let shoppingList = [];
+
+while (true) {
+  let item = prompt("What do you want to buy?");
+  if (item === "Done") break;
+  shoppingList.push(item);
+}
+
+if (shoppingList.length === 0) {
+  console.log("Nothing to buy.");
+} else {
+  let items = shoppingList.slice(0, -1).join(", ") + " and " + shoppingList[shoppingList.length - 1];
+  console.log(items);
+  if (shoppingList.length < 5) {
+    console.log("I can still carry this.");
+  } else if (shoppingList.length >= 5 && shoppingList.length <= 9) {
+    console.log("I think I'll drive to get this.");
+  } else if (shoppingList.length >= 10) {
+    console.log("Too much. I'd rather buy it online.");
+  }
+  console.log(`That's it - there are ${shoppingList.length} items.`);
+}
+
+  </script>
+</body>
+</html>
