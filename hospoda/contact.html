@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kontakt</title>
+	<link rel="stylesheet" href="contact.css">
+	<script src="contact.js"></script>
+</head>
+<body background="images/bricks.jpg">
+    <header>
+        <h1 class="unselectable">Hospoda</h1>
+        <nav>
+          <ul>
+            <li class="unselectable"><a href="">Domů</a></li>
+            <li class="unselectable"><a href="">Menu</a></li>
+            <li class="unselectable"><a href="">O náš</a></li>
+            <li class="unselectable"><a href="contact.html">Kontaktní formulář</a></li>
+          </ul>
+        </nav>
+    </header>
+        <div class="wrapper">
+        <h2>Kontaktní formulář</h2>
+        <form id="myform" onsubmit="return validate();">
+        <div class="input_pole">
+            <label>Jméno*</label>
+            <input type="text" placeholder="Zadejte jméno" id="Jmeno">
+            
+        </div>
+        <div class="input_pole">
+            <label>Příjmení*</label>
+            <input type="text" placeholder="Zadejte příjmení" id="Prijmeni">
+        </div>
+        <div class="input_pole">
+            <label>Telefonní číslo*</label>
+            <input type="text" placeholder="Zadejte telefon" id="Telefon">
+        </div>
+        <div class="input_pole">
+            <label>Email*</label>
+            <input type="text" placeholder="Zadejte email" id="Email">
+        </div>
+        <div class="input_pole">
+            <label>Rodné číslo</label>
+            <input type="text" placeholder="Zadejte rodné číslo" id="RodneCislo">
+        </div>
+        <div class="input_pole">
+            <label>Zpráva*</label>
+            <textarea placeholder="Napište zpravů (min 50 znaků)" id="Zprava"></textarea>
+        </div>
+        <div class="errory-message" id="error_message"></div>
+        <div class="btn">
+            <input type="submit">
+        </div>
+        </form>
+        </div>
+        <footer>
+        <p>© 2023 Hospoda. All rights reserved.</p>
+        </footer>
+</body>
+</html>
