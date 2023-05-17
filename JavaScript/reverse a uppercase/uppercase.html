@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <h1>Uppercase in every word of the sentence </h1>
+    <input type="text" id="inputSentence" placeholder="Your sentence">
+    <button onclick="upperCaseChange()">Convert</button>
+    <p id="outputSentence"></p>
+    <script>
+        function upperCaseChange() {
+            var inputText = document.getElementById("inputSentence").value;  // ziskáni zadaneho textu
+            var uppercaseSentence = inputText.replace(/\b\w/g, function(convert){  // nahrazeni prvniho pismene kazdeho slova na velke pismeno
+                return convert.toUpperCase();
+            });
+            document.getElementById("outputSentence").textContent = 'Uppercase sentence: ' + uppercaseSentence;  // zobrazeni vysledneho textu s velkymi pismeny
+        }
+    </script>   
+</body>
+</html>
