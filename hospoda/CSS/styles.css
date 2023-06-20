@@ -1,0 +1,54 @@
+.youtube{
+  width: 600px;
+  aspect-ratio: 16 / 9;
+}
+.prokliky{
+  font-size: 15x
+}
+.nadpis1, h1{
+  text-align: center;
+  font-family: ;
+  font-size: 60px
+  
+}
+.popisjidla{
+  font-family: ;
+  font-size: 18px;
+  display: inline;
+}
+.img {
+  padding:25px;
+  border-radius: 60px;
+  vertical-align: middle;
+}
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.uvod{
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: ;
+}
+.small-padding{
+  padding: 5px;
+}
+
+.img-res{
+  aspect-ratio: 16 / 9;
+}
+
+.lighter{
+  font-weight: lighter;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.underline{
+  text-decoration: underline;
+}
